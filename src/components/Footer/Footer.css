@@ -1,0 +1,78 @@
+.footer{
+  height: auto;
+  padding: 60px 200px 15px 200px;
+}
+
+.social-links{
+  margin-bottom: 15px;
+}
+.social-links a {
+  margin-right: 15px;
+}
+.social-links a .icon{
+  fill: grey;
+  height: 28px;
+  width: 36px;
+}
+.social-links a .icon-twitter{
+  fill: grey;
+  height: 29px;
+  width: 38px;
+}
+.social-links a .icon-youtube{
+  fill: grey;
+  height: 31px;
+  width: 38px;
+}
+
+.footer-links{
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 0 0 14px 0;
+  padding: 0;
+}
+.footer-link-wrapper{
+  list-style-type: none;
+  flex: 0 0 50%;
+  margin-bottom: 16px;
+}
+.footer-link{
+  color: grey;
+  text-decoration: none;
+}
+.footer-link:hover{
+  text-decoration: underline;
+}
+
+.service-code{
+  background: 0 0;
+  color: grey;
+  border: solid 1px grey;
+  font-size: 0.8rem;
+  padding: .5rem;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.footer-copyright{
+  font-size: 11px;
+  margin-bottom: 15px;
+  color: grey;
+}
+.footer-copyright a{
+  text-decoration: underline;
+  color: grey;
+}
+
+
+@media screen and (min-width: 800px){
+  .footer-link-wrapper{
+    flex-basis: 25%;
+  }
+}
+
+
+
+
